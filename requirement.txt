@@ -1,0 +1,13 @@
+langgraph
+langchain
+langchain-core
+langchain-community
+langchain-mistralai
+tavily-python
+python-dotenv
+streamlit
+langchain-tavily
+fastapi
+uvicorn
+requests
+pydantic

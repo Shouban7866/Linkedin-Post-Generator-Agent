@@ -1,0 +1,23 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="langchain" />
+          <option value="langgraph" />
+          <option value="langchain-community" />
+          <option value="langchain-text-splitters" />
+          <option value="langchain-mistralai" />
+          <option value="langchain-pinecone" />
+          <option value="langchain-tavily" />
+          <option value="pinecone" />
+          <option value="python-dotenv" />
+          <option value="pypdf" />
+          <option value="streamlit" />
+          <option value="fastapi" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
