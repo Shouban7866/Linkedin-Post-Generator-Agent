@@ -20,7 +20,6 @@ An Agentic AI application that generates, reviews, and publishes LinkedIn posts 
 - FastAPI
 - Streamlit
 - LinkedIn REST API
-- Pydantic
 
 ## 📂 Project Structure
 
