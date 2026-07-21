@@ -25,9 +25,10 @@ An Agentic AI application that generates, reviews, and publishes LinkedIn posts 
 
 ```
 ├── agent_graph.py
-├── Backend.py
+├── backend.py
 ├── frontend.py
-├── .env
+├── .env.example
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
@@ -69,7 +70,7 @@ Developed as an Agentic AI project to demonstrate workflow automation, Human-in-
 Run the backend:
 
 ```bash
-uvicorn api:app --reload
+uvicorn backend:app --reload
 ```
 
 Server:
@@ -85,5 +86,5 @@ http://127.0.0.1:8000
 Run:
 
 ```bash
-streamlit run app.py
+streamlit run frontend.py
 ```
