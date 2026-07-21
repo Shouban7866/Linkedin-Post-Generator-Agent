@@ -47,7 +47,6 @@ def start_workflow(req: StartRequest):
         "api_status": ""
     }
     try:
-        # FIX: Direct invoke chalayenge taake graph START se shuru ho aur writer node ko execute kare
         agent_app.invoke(initial_state, config=config)
         return format_state_response(config)
     except Exception as e:
