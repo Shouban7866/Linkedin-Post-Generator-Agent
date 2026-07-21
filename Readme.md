@@ -63,3 +63,27 @@ Publish to LinkedIn
 
 
 Developed as an Agentic AI project to demonstrate workflow automation, Human-in-the-Loop AI, and LinkedIn content publishing.
+
+## 🌐 FastAPI Backend
+
+Run the backend:
+
+```bash
+uvicorn api:app --reload
+```
+
+Server:
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+## 💻 Streamlit Frontend
+
+Run:
+
+```bash
+streamlit run app.py
+```
