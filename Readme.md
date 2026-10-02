@@ -44,7 +44,7 @@ pip install -r requirements.txt
 2. Add your API keys in `.env`
 
 ```env
-MISTRAL_API_KEY=your_api_key
+GROQ_API_KEY=your_api_key
 LINKEDIN_ACCESS_TOKEN=your_access_token
 ```
 
