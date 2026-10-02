@@ -4,13 +4,17 @@ from typing import TypedDict
 from langgraph.graph import StateGraph, START, END
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.types import interrupt
-from langchain_mistralai import ChatMistralAI
+from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 
 load_dotenv()
 
-MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
-writer_llm = ChatMistralAI(model="mistral-large-latest", api_key=MISTRAL_API_KEY, temperature=0.7)
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+writer_llm = ChatGroq(
+    model="openai/gpt-oss-120b",
+    temperature=0.7,
+    api_key=GROQ_API_KEY
+)
 
 class State(TypedDict):
     topic: str
